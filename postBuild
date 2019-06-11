@@ -1,3 +1,4 @@
 #!/bin/bash
 git clone https://github.com/esdc-esac-esa-int/notebooks
-pwd
+cd pyesasky
+sh install.sh
