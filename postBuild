@@ -1,5 +1,9 @@
 #!/bin/bash
 
+work="$PWD"
 git clone https://github.com/esdc-esac-esa-int/notebooks
+pwd
+cd $work
+pwd
 cd pyesasky
 sh install.sh
