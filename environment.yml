@@ -10,3 +10,4 @@ dependencies:
     - astroquery
     - pandas
     - matplotlib
+    - photutils
