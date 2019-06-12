@@ -1,6 +1,5 @@
 #!/bin/bash
 
-work="$PWD"
-git clone -b dev https://github.com/esdc-esac-esa-int/pyesasky
+git clone  https://github.com/esdc-esac-esa-int/pyesasky
 cd pyesasky
 sh install.sh
