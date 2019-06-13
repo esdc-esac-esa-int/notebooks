@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 git clone  https://github.com/esdc-esac-esa-int/pyesasky
 cd pyesasky
