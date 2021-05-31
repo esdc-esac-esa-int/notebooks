@@ -1,5 +1,6 @@
 #!/bin/bash 
 
-git clone  https://github.com/esdc-esac-esa-int/pyesasky
-cd pyesasky
-sh install.sh
+pip install -U pyesasky
+jupyter nbextension install --py --sys-prefix pyesasky
+jupyter nbextension enable --py --sys-prefix pyesasky
+jupyter labextension install pyesasky@latest
